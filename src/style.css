@@ -1,0 +1,12 @@
+.hover-menu[data-popper-placement^="top"] {
+  margin-bottom: calc(var(--bs-menu-border-width) * -1) !important;
+}
+.hover-menu[data-popper-placement^="bottom"] {
+  margin-top: calc(var(--bs-menu-border-width) * -1) !important;
+}
+.hover-menu[data-popper-placement^="left"] {
+  margin-right: calc(var(--bs-menu-border-width) * -1) !important;
+}
+.hover-menu[data-popper-placement^="right"] {
+  margin-left: calc(var(--bs-menu-border-width) * -1) !important;
+}

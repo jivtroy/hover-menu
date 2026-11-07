@@ -1,0 +1,61 @@
+{
+  "name": "hover-menu",
+  "description": "Bootstrap framework hover menu with js events support.",
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/js/hover-menu.umd.js",
+  "module": "./dist/js/hover-menu.js",
+  "exports": {
+    ".": {
+      "import": "./dist/js/hover-menu.js",
+      "require": "./dist/js/hover-menu.umd.js",
+      "default": "./dist/js/hover-menu.js"
+    },
+    "./css": "./dist/css/hover-menu.min.css",
+    "./dist/css/hover-menu.min.css": "./dist/css/hover-menu.min.css"
+  },
+  "sideEffects": [
+    "./dist/js/hover-menu.js",
+    "./dist/js/hover-menu.umd.js",
+    "./dist/css/hover-menu.min.css"
+  ],
+  "style": "./dist/css/hover-menu.min.css",
+  "keywords": [
+    "bootstrap",
+    "css",
+    "html",
+    "js",
+    "javascript",
+    "sass"
+  ],
+  "homepage": "https://github.com/jivtroy/hover-menu",
+  "author": "Jiv Troy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jivtroy/hover-menu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jivtroy/hover-menu/issues"
+  },
+  "license": "MIT",
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://patreon.com"
+    }
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1",
+    "vite-plugin-banner": "^0.8.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
