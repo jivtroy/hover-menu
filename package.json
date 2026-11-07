@@ -29,7 +29,8 @@
     "html",
     "js",
     "javascript",
-    "sass"
+    "menu",
+    "hover"
   ],
   "homepage": "https://github.com/jivtroy/hover-menu",
   "author": "Jiv Troy",
