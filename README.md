@@ -7,12 +7,6 @@ Bootstrap framework hover menu with js events support.
 1. [Compatibility](#compatibility)
 2. [Installation](#installation)
    1. [NPM](#npm)
-   2. [Bun](#bun)
-   3. [Deno](#deno)
-   4. [PNPM](#pnpm)
-   5. [Yarn](#yarn)
-   6. [Nub](#nub)
-   7. [Vlt](#vlt)
 3. [Usage](#usage)
    1. [CDN](#cdn)
    2. [Local](#local)
@@ -33,42 +27,6 @@ Bootstrap | >= 5.3 and < 6.0
 
 ```bash
 npm install hover-menu
-```
-
-### Bun
-
-```bash
-bun add hover-menu
-```
-
-### Deno
-
-```bash
-deno add npm:hover-menu
-```
-
-### PNPM
-
-```bash
-pnpm add hover-menu
-```
-
-### Yarn
-
-```bash
-yarn add hover-menu
-```
-
-### Nub
-
-```bash
-nub install hover-menu
-```
-
-### Vlt
-
-```bash
-vlt install hover-menu
 ```
 
 ## Usage

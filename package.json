@@ -30,7 +30,10 @@
     "js",
     "javascript",
     "menu",
-    "hover"
+    "hover",
+    "hover menu",
+    "ui",
+    "front-end"
   ],
   "homepage": "https://github.com/jivtroy/hover-menu",
   "author": "Jiv Troy",

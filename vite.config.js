@@ -30,7 +30,7 @@ export default defineConfig({
   },
   plugins: [
     banner(
-      `\n * HoverMenu v${pkg.version}` +
+      `\n * Hover Menu v${pkg.version}` +
       `\n * Homepage (${pkg.homepage})` +
       `\n * Copyright ${pkg.author}` +
       `\n * License: ${pkg.license}\n`
